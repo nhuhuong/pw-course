@@ -1,0 +1,4 @@
+git config --global user.name "Huong"
+git config --global user.email "tranthinhuhuong@gmail.com"
+Config branch default: ○ git config --global
+init.defaultBranch main
