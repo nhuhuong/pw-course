@@ -1,12 +1,28 @@
 1. git init: khởi tạo repo
-2. git add <file name> : add file name vào vùng Staging
+2. git add <file name> : add file name <file name> vào vùng Staging
 3. git add . : add tất cả file vào vung Staging 
-4. git commit -m "message" : adđ file vào vung repository với note là message.
+4. git commit -m "message" : tạo ra 1 phiên bản dựa vào các file đã được thêm ở Staging vào Repository với thông điep là message
 ------------
-Bài 2 
-1. tạo 3 file
-2. git init: khởi tạo repo
-3. git commit -m "init project": khoi tao voi message init project 
-4. git add file 1 => add file 1 vao vung STaging 
-5. git commit -m "add file 1" => add file 1 vao vung repo voi message "add file 1"
-6. git add file -> loi, do khong co file nao ten file (3 file la file1, file2 va file3)
+Bài 2
+a. Tao 3 file 
+Local: file1, file2, file3
+    - Working directory:
+    - Staging:
+    - Repository:
+b. chay lenh git init 
+    - Working directory:file1, file 2, file 3
+    - Staging:
+    - Repository
+c. Chay lenh git commit -m "init project"
+    - Working directory:file1, file 2, file 3
+    - Staging:
+    - Repository
+d. git add file 1 
+    - Working directory: file 2, file 3
+    - Staging:file1
+    - Repository
+e. git commit -m "add file 1"
+    - Working directory: file 2, file 3
+    - Staging:
+    - Repository: file1
+f. git add file => loi, do khong co file nao ten file (3 file la file1, file2 va file3)
