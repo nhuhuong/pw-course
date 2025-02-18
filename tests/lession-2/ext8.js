@@ -1,5 +1,3 @@
-for (i=1; i<=100; i++){
-    if (i%4 ==1) {
-        console.log(i)
-    } 
+for (i = 1; i <= 100; i = i + 4) {
+    console.log(i)
 }

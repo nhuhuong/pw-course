@@ -1,8 +1,8 @@
-let chieucao = 1.75
-sole = Math.floor((chieucao * 100) % 100)
-cannanglituong = sole*9/10
-cannangtoida = sole
-cannangtoithieu = sole*8/10
-console.log("Bạn đã nhập:", chieucao);
-console.log("can nang li tuong la: " + cannanglituong + ", can nang toi da la: " + cannangtoida + ", can nang toi thieu la: " + cannangtoithieu)
+let chieuCao = 1.75;
+let soLe = Math.floor((chieuCao * 100) % 100);
+canNangLiTuong = soLe * 9 / 10;
+canNangToiDa = soLe;
+canNangToiThieu = soLe * 8 / 10;
+console.log("Bạn đã nhập:", chieuCao);
+console.log("can nang li tuong la: " + canNangLiTuong + ", can nang toi da la: " + canNangToiDa + ", can nang toi thieu la: " + canNangToiThieu);
 
