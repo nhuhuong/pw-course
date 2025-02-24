@@ -208,6 +208,6 @@ function thoiTiet(nhietDo){
     }
 };
 
-console.log(thoiTiet(5))
-console.log(thoiTiet(25))
-console.log(thoiTiet(33))
+console.log(thoiTiet(5));
+console.log(thoiTiet(25));
+console.log(thoiTiet(33));
