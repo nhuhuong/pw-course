@@ -13,7 +13,7 @@ b. chay lenh git init
     - Working directory:file1, file 2, file 3
     - Staging:
     - Repository
-c. Chay lenh git commit -m "init project"
+c. Chay lenh git commit -m "init project" //neu chay se bi loi, vi staging chua co file 
     - Working directory:file1, file 2, file 3
     - Staging:
     - Repository
