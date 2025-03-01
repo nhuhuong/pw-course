@@ -102,7 +102,7 @@ function kiemTraGia(myArray) {
     coGiaBangKhong = false
     for (let i = 0; i < myArray.length; i++) {
         if (myArray[i]["price"] == 0) {
-            coGiaBangKhong = true
+            return "Gio hang co san pham co gia bang khong";
         }
     }
     if (coGiaBangKhong == true) {

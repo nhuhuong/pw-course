@@ -1,7 +1,5 @@
-const { match } = require("assert");
-
 // Bai 1
-let car = { make: "Toyota", model: "Corolla", year: "2021" };
+let car = { make: "Toyota", model: "Corolla", year: 2021 };
 console.log(car.year);
 
 // Bai 2
@@ -10,7 +8,7 @@ console.log("ten duong cua " + person.name + " la: " + person.address.street);
 
 
 // Bai 3
-let student = { name: "Nguyen Van B", grade: { math: "7", english: "9" } };
+let student = { name: "Nguyen Van B", grade: { math: 7, english: 9 } };
 console.log(student["grade"]["math"]);
 
 //Bai 4
@@ -23,7 +21,7 @@ for (let key in product) {
 
 
 //Bai 5
-let settings = { volumn: "hight", brightness: "1" };
+let settings = { volumn: "hight", brightness: 1 };
 console.log(settings["volumn"]);
 settings["volumn"] = "medium";
 console.log(settings["volumn"]);
@@ -39,5 +37,8 @@ delete (employee["age"]);
 console.log(employee);
 
 //bai 8
-const school = { classA: ["An", "Binh", "Chau"], classB: ["Dao", "Huong", "Giang"] };
+let school = { 
+    classA: ["An", "Binh", "Chau"], 
+    classB: ["Dao", "Huong", "Giang"] 
+};
 console.log(school);

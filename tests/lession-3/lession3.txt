@@ -1,22 +1,22 @@
 -----------------------------
 Bai tap 1 
 -----------------------------
-git commit --amend: mở file , edit file và sửa lại message. 
-git commit --amend -m <message>: sửa lại message của commit gần nhất với nội dung là "message"
+git commit --amend: mở file , edit file và sửa lại message cuả commit gần nhất
+git commit --amend -m <message>: sửa lại message của commit gần nhất với nội dung là "message" mà không cần vào giao diện
 git restore --staged <file>:  Đưa file <file> từ Staging về working 
-git reset HEADH~1: Dưa file từ Repository về vùng Working (Revert 1 commit)
+git reset HEADH~1: Dưa file changes của 1 commit gần nhất từ Repository về vùng Working (Revert 1 commit)
 
 
 
 ----------------------------
 Bai tap 2 
 ----------------------------
-a. Tao 3 file: file 1, file 2, file 3 
+a. Tao 3 file: file 1, file 2, file 3 => chua co 3 vung, chua duoc quan ly boi git
 b. git init 
 - Working: file 1, file 2, file 3 
 - Staging: 
 - Repository: 
-c. git commit -m "init project"
+c. git commit -m "init project" => tra ra mesage: khong co file commit
 - Working: file 1, file 2, file 3 
 - Staging: 
 - Repository: 
@@ -55,15 +55,14 @@ a. git init:
 - Staging: 
 - Repository: 
 b. Tao file file1.txt, file 2.txt, oop/file3.txt; va them file .gitignore
-- Working: file1.txt, file 2.txt, oop/file3.txt
-- Staging: 
+- Working: file2.txt, gitigore 
 - Repository: 
 c. git add . 
-- Working: file1.txt, oop/file3.txt
-- Staging: file 2.txt
+- Working: 
+- Staging: file2.txt, gitignore
 - Repository: 
 d. git commit -m 'init project'
-- Working: file1.txt, oop/file3.txt
+- Working: 
 - Staging: 
-- Repository: file 2.txt
+- Repository: file2.txt, gitignore
 => mesage: 'init project'
