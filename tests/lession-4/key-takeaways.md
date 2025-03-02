@@ -74,7 +74,7 @@ for (let i = 1; i<=5; i++){
     }
     console.log(i)
 }
-// => output: 1 
+// => output: 1 ```
 
 ### Note
 for in: la object, array 
