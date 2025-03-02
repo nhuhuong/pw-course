@@ -67,13 +67,13 @@ for (let fruite of fruits) {
 => output: 1,3,5
 
 ### break: thoat khoi vong lap
-```for (let i = 1; i<=5; i++){
+**```for (let i = 1; i<=5; i++){
     if (i%2 === 0){
         break;
     }
     console.log(i)
 }
-// => output: 1 ``` 
+// => output: 1 
 
 ### Note
 for in: la object, array 
