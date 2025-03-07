@@ -6,7 +6,7 @@ myArray.forEach((value) =>
 
 );
 
-// Bai 2: Tinh tong, tim max, min
+// Bai 2: Tinh tong, tim max, min trong mang
 let total = 0;
 let min = myArray[0];
 let max = myArray[0];
@@ -20,7 +20,8 @@ console.log(`Tong la ${total}`);
 console.log(`Min la ${min}`);
 console.log(`Max la ${max}`);
 
-// Bai 3
+// Bai 3: tao mang moi tu mang da cho, trong do moi phan tu nhan doi 
+
 let myNewArray = []
 myArray.forEach((value) => {
     myNewArray.push(value * 2);
