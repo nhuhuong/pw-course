@@ -1,0 +1,16 @@
+Câu 1: Cấu trúc DOM cơ bản của 1 trang web bao gồm các thẻ: 
+ Thẻ <!DOCTYPE>
+ Thẻ <html
+ <head>
+ <body>
+ Trong thẻ <body> có nhiều loại thẻ khác: <div>, <input>, <href> ....
+
+ Câu 2: Cấu truc 1 bảng table 
+ <table>: bang 
+ <tr> hang </tr>  // the bang 
+ <th> tieu de </th> 
+<td>: data trong bang 
+<thead> phan dau cua bang 
+<tbody> noi dung chinh cua bang 
+<tfood> chan bang
+ </table>
