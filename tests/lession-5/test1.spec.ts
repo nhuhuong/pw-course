@@ -30,7 +30,11 @@ test('test case name', async ({page}) => {
 
     await page.locator(`//select[@id='country']`).selectOption({value: 'uk'});
 
+    await page.locator(`//select[@id='profile']`).setInputFiles(`tests/data-test/image.png`);
+
 
     await page.locator(`//button[@type='submit']`).click();
+
+
 
 })
